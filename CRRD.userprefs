@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="CRRD\CRRD.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.5 Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CRRD\Resources\Activities\BusinessListActivity.cs">
+    <Files>
+      <File FileName="CRRD\Resources\Activities\BusinessListActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

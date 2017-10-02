@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:padding="30dp">
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/txtBusinessName"
+                android:layout_marginBottom="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutBusinessAddress">
+                <ImageView
+                    android:id="@+id/iconBusinessAddress"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_place_black_24dp"
+                    android:tint="@color/cscBlue"
+                    android:layout_weight="1" />
+                <TextView
+                    
+                    android:textColor="@color/cscBlue"
+                    android:textSize="20dp"
+                    android:id="@+id/txtBusinessAddress"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutBusinessPhone">
+                <ImageView
+                    android:id="@+id/iconBusinessPhone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_phone_black_24dp"
+                    android:tint="@color/cscBlue"
+                    android:layout_weight="1" />
+                <TextView
+                    android:textColor="@color/cscBlue"
+                    android:id="@+id/txtBusinessPhone"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutBusinessWebsite">
+                <ImageView
+                    android:id="@+id/iconBusinessWebsite"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_public_black_24dp"
+                    android:tint="@color/cscBlue"
+                    android:layout_weight="1" />
+                <TextView
+                    android:textColor="@color/cscBlue"
+                    android:id="@+id/txtBusinessWebsite"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/layoutBusinessLinks" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutBusinessAcceptsLabel">
+                <ImageView
+                    android:id="@+id/iconBusinessAccepts"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_check_box_black_24dp"
+                    android:tint="@color/black"
+                    android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/txtBusinessAcceptsLabel"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/layoutBusinessAccepts">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+                <TextView
+                    android:layout_weight="4"
+                    android:textColor="@color/black"
+                    android:id="@+id/txtBusinessAccepts"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

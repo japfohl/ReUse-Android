@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cscGreen" type="color">#7C903A</item>
+    <item name="cscGreenLight" type="color">#99B247</item>
+    <item name="cscGreenDark" type="color">#4F5C25</item>
+    <item name="cscOrange" type="color">#F89420</item>
+    <item name="cscBlue" type="color">#47A6B2</item>
+    <item name="cscBlueDark" type="color">#415E5E</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="black" type="color">#000000</item>
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme" parent="MyTheme.Base"></style>
+  <!-- Base theme applied no matter what API -->
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/cscGreenDark</item>
+    <item name="colorPrimaryDark">@color/cscGreenDark</item>
+  </style>
+  <style name="MyThemeOverflow" parent="ThemeOverlay.AppCompat.Dark">
+    <item name="android:colorBackground">@color/cscGreenDark</item>
+    <item name="android:gravity">right</item>
+    <item name="android:layout_width">wrap_content</item>
+</style>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:padding="30dp">
+            <TextView
+                android:text="@string/AboutActivityLabel"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:text="@string/AboutCorvallisReuse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutRepair">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_check_box_black_24dp"
+                    android:tint="@color/black"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="@string/AboutCorvallisReuseReuse"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutRepair">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_check_box_black_24dp"
+                    android:tint="@color/black"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="@string/AboutCorvallisReuseRepair"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:orientation="horizontal"
+                android:id="@+id/layoutRepair">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/ic_check_box_black_24dp"
+                    android:tint="@color/black"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="@string/AboutCorvallisReuseRecycle"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
